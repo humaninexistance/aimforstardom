@@ -1,0 +1,158 @@
+#site-footer {
+  position: relative;
+  margin-top: 300px;
+}
+
+.footer-pattern {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 300px;
+
+  background-image: url("assets/footer.png");
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: auto 300px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+
+  margin-bottom: -18px;
+  margin-right: -1px;
+}
+
+.footer-pattern.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #f0a400;
+   bottom: 0;
+}
+
+#site-header {
+  position: relative;
+}
+
+#site-header {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.header-pattern {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 450px;
+
+  background-image: url("assets/header.png");
+  background-repeat: repeat-x;
+  background-position: top left;
+  background-size: auto 450px;
+  margin-top: -170px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.header-pattern.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+#nav {
+position: sticky;
+   top: 0;
+   text-decoration: none;
+   padding-left: 10px;
+   font-size: 1.2em;
+   font-weight: bold;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   z-index: 1000;
+}
+
+nav a{
+   text-decoration: none;
+   color: black;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   padding: 0px;
+   margin: 0px;
+   background-attachment: fixed;
+   color: black;
+   font-family: 'system-ui', sans-serif;
+   scroll-behavior: smooth;
+   min-height: 100vh;
+   background-repeat: no-repeat;
+}
+
+.links{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-right: 20px;
+   font-weight: normal;
+}
+
+.links a, .links button {
+   margin-left: 20px;
+   font-size:0.9em;
+}
+
+.nav-icon{
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+}
+
+.page{
+   margin: 20px;
+   padding: 10px;
+   flex: 1;
+}
+
+footer p{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
