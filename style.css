@@ -156,3 +156,20 @@ a{
    text-decoration: none;
    color: black;
 }
+
+.intro p, h2, h3{
+    margin-left: 70px;
+}
+
+.intro h2{
+    font-size: 220%;
+    margin-top: -20px;
+}
+
+.intro h3{
+    font-size: 160%;
+}
+
+.intro p{
+    font-size: 130%;
+}
