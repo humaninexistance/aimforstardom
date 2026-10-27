@@ -116,7 +116,8 @@ body{
    margin: 0px;
    background-attachment: fixed;
    color: #cc5f1b;
-   font-family: 'system-ui', sans-serif;
+   font-family: "Frank Ruhl Libre", serif;
+   font-weight: 300;
    scroll-behavior: smooth;
    min-height: 100vh;
    background-repeat: no-repeat;
